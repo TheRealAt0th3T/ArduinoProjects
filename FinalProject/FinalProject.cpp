@@ -173,7 +173,7 @@ void loop() {
     for (int i = 12; i <= 14; i++) {
       leds[i] = CRGB ( 0, 0, 0);
     }
-  for (int i = 0; i <= 11; i++) {
+    for (int i = 0; i <= 11; i++) {
       leds[i] = CRGB ( 0, 255,0);
     }
     FastLED.show();
@@ -182,7 +182,7 @@ void loop() {
     for (int i = 13; i <= 14; i++) {
       leds[i] = CRGB ( 0, 0, 0);
     }
-  for (int i = 0; i <= 12; i++) {
+    for (int i = 0; i <= 12; i++) {
     leds[i] = CRGB ( 0, 255,0);
     }
     FastLED.show();
