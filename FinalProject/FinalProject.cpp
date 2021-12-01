@@ -1,6 +1,15 @@
-
-#include <FastLED.h> //library to help control LEDs
-#include <QuickStats.h> 
+/**
+ * @file FinalProject.cpp
+ * @author Amara Tariq
+ * @brief GIMM 280 - Parking Garage Assistant
+ * @version 0.1
+ * @date 2021-12-01
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+#include <FastLED.h> //to help control individual LEDs
+#include <QuickStats.h> //to help manage stats for echo and trig
 
 
 QuickStats stats; //initialize an instance of this class
@@ -101,7 +110,7 @@ void loop() {
       leds[i] = CRGB ( 0, 0, 0);
     }
     for (int i = 0; i <= 4; i++) {
-    leds[i] = CRGB ( 0, 255,0);
+      leds[i] = CRGB ( 0, 255,0);
     }
     FastLED.show();
     delay(50);
@@ -110,7 +119,7 @@ void loop() {
       leds[i] = CRGB ( 0, 0, 0);
     }
     for (int i = 0; i <= 5; i++) {
-    leds[i] = CRGB ( 0, 255,0);
+      leds[i] = CRGB ( 0, 255,0);
     }
     FastLED.show();
     delay(50);
@@ -163,7 +172,7 @@ void loop() {
     for (int i = 12; i <= 14; i++) {
       leds[i] = CRGB ( 0, 0, 0);
     }
-  for (int i = 0; i <= 11; i++) {
+    for (int i = 0; i <= 11; i++) {
       leds[i] = CRGB ( 0, 255,0);
     }
     FastLED.show();
@@ -188,7 +197,7 @@ void loop() {
     delay(50);
   }else if (distance>=stopdistance+increment*14){
     for (int i = 0; i <= 14; i++) {
-    leds[i] = CRGB ( 0, 255,0);
+      leds[i] = CRGB ( 0, 255,0);
     }
     FastLED.show();
     delay(50);
