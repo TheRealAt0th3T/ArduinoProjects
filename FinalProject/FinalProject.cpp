@@ -1,3 +1,13 @@
+/**
+ * @file FinalProject.cpp
+ * @author Amara Tariq
+ * @brief GIMM 280 - Parking Garage Assistant
+ * @version 0.1
+ * @date 2021-12-01
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 
 #include <FastLED.h> //to help control LEDs individually
 #include <QuickStats.h> //to help get stats between echo/sound
