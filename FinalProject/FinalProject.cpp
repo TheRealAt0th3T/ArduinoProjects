@@ -1,6 +1,6 @@
 
-#include <FastLED.h> //library to help control LEDs
-#include <QuickStats.h> 
+#include <FastLED.h> //to help control individual LEDs
+#include <QuickStats.h> //to help manage stats for echo and trig
 
 
 QuickStats stats; //initialize an instance of this class
