@@ -101,7 +101,7 @@ void loop() {
       leds[i] = CRGB ( 0, 0, 0);
     }
     for (int i = 0; i <= 4; i++) {
-    leds[i] = CRGB ( 0, 255,0);
+      leds[i] = CRGB ( 0, 255,0);
     }
     FastLED.show();
     delay(50);
@@ -110,7 +110,7 @@ void loop() {
       leds[i] = CRGB ( 0, 0, 0);
     }
     for (int i = 0; i <= 5; i++) {
-    leds[i] = CRGB ( 0, 255,0);
+      leds[i] = CRGB ( 0, 255,0);
     }
     FastLED.show();
     delay(50);
@@ -163,7 +163,7 @@ void loop() {
     for (int i = 12; i <= 14; i++) {
       leds[i] = CRGB ( 0, 0, 0);
     }
-  for (int i = 0; i <= 11; i++) {
+    for (int i = 0; i <= 11; i++) {
       leds[i] = CRGB ( 0, 255,0);
     }
     FastLED.show();
@@ -188,7 +188,7 @@ void loop() {
     delay(50);
   }else if (distance>=stopdistance+increment*14){
     for (int i = 0; i <= 14; i++) {
-    leds[i] = CRGB ( 0, 255,0);
+      leds[i] = CRGB ( 0, 255,0);
     }
     FastLED.show();
     delay(50);
